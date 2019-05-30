@@ -11,4 +11,5 @@ def batch_badge_creator(guests)
 end
 
 def assign_rooms(guests)
-  
+  arr = [ ]
+  guests.each {
