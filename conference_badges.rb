@@ -18,4 +18,4 @@ def assign_rooms(guests)
    return arr 
 end
 
-def printer = 
+def printer 
