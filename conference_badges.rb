@@ -7,5 +7,5 @@ end
 def batch_badge_creator(guests)
   array_names = [ ]
   guests.each { |name| array_names << badge_maker(name) }
-  end
+  return array_names
 end
