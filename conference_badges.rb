@@ -1,1 +1,5 @@
-# Write your code here.
+#AlyssaYesilyurt
+
+def badge_maker(name)
+  puts "Hello my name is #{name}."
+end 
