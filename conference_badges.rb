@@ -12,4 +12,9 @@ end
 
 def assign_rooms(guests)
   arr = [ ]
-  guests.each {
+  guests.each_with_index do |name, index|
+      arr << "Hello, #{name}! You'll be assigned to room #{index+1}!" 
+   end
+   return arr 
+end
+
