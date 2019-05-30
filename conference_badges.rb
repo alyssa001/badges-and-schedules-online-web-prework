@@ -9,3 +9,6 @@ def batch_badge_creator(guests)
   guests.each { |name| arr << badge_maker(name) }
   return arr
 end
+
+def assign_rooms(guests)
+  
