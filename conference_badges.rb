@@ -18,4 +18,7 @@ def assign_rooms(guests)
    return arr 
 end
 
-def printer 
+def printer(guests)
+  batch_badge_creator(guestas).each {|room| puts room}
+end
+end
